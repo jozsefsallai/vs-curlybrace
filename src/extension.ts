@@ -70,7 +70,7 @@ function createDecorationType() {
 
 	return vscode.window.createTextEditorDecorationType({
 		after: {
-			contentIconPath: path.join(__dirname, '..', 'src', 'curly.svg'),
+			contentIconPath: path.join(__dirname, '..', 'images', 'curly.svg'),
 			width: lineHeight,
 			height: lineHeight,
 			margin: '0 0 0 4px'
